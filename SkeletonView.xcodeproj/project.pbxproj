@@ -523,6 +523,7 @@
 					F5F899F11FABA607002E8FDA = {
 						CreatedOnToolsVersion = 9.1;
 						DevelopmentTeam = KWEMDK92F4;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -963,7 +964,7 @@
 				PRODUCT_NAME = SkeletonView;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -987,7 +988,7 @@
 				PRODUCT_NAME = SkeletonView;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1011,7 +1012,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanpecatalan.SkeletonViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1036,7 +1037,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanpecatalan.SkeletonViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

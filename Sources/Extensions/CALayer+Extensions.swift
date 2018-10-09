@@ -66,7 +66,7 @@ public extension CALayer {
         pulseAnimation.fromValue = backgroundColor
         pulseAnimation.toValue = UIColor(cgColor: backgroundColor!).complementaryColor.cgColor
         pulseAnimation.duration = 1
-        pulseAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        pulseAnimation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         pulseAnimation.autoreverses = true
         pulseAnimation.repeatCount = .infinity
         return pulseAnimation
@@ -84,7 +84,7 @@ public extension CALayer {
         let animGroup = CAAnimationGroup()
         animGroup.animations = [startPointAnim, endPointAnim]
         animGroup.duration = 1.5
-        animGroup.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+        animGroup.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
         animGroup.repeatCount = .infinity
         
         return animGroup
